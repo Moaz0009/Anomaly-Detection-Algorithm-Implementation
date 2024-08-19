@@ -1,7 +1,3 @@
-Here’s a README file for your GitHub repository:
-
----
-
 # Anomaly Detection Algorithm Implementation
 
 Welcome to the Anomaly Detection Algorithm repository! This project contains the implementation of an anomaly detection algorithm using Gaussian distribution-based probability estimation. The algorithm is designed to detect outliers in a dataset and determine an optimal threshold for identifying anomalies.
