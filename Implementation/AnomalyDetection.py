@@ -11,7 +11,6 @@ class AnomalyDetectionAlgorithm():
         for i in range(x.shape[1]):
             self.mu[i]=np.mean(x[:,i])
             self.var[i]=np.mean((x[:,i]-self.mu[i])**2)   
-        self.var = np.var(x, axis=0, ddof=0)  # Population variance
     def get_probability (self,x):
         if (self.mu is None or self.var is None):
             raise ValueError('Model parameters mu and var must be initialized by calling fit.')
