@@ -32,7 +32,6 @@ The algorithm estimates the probability of each feature in the dataset using a G
 - Python 3.x
 - NumPy
 - Matplotlib (for visualization)
-- Any other relevant libraries
 
 ### Installation
 1. Clone the repository:
